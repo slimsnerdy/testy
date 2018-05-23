@@ -1,0 +1,38 @@
+GIT (distributed version control system)
+
+
+
+master - default local branch
+origin - default remote repository 
+origin/master - remote master branch
+
+git config - define author name, etc..
+
+git init - creates new repository
+git clone - copy existing repository
+STAGING CHANGES
+	git add <filename>
+		git add*
+	git rm <filename>
+COMMITING CHANGES
+	git commit -m "commit message"
+git status - list files that are STAGED, UNSTAGE, UNTRACKED
+git log
+git diff
+
+BRANCHES
+	git branch	- shows the branches locally
+	git checkout -b <branch> create & checkout new branch
+	git merge <branch> - merge into current branch
+
+
+git remote add <name> <url>
+git fetch <origin> <master>
+git pull <origin>
+git push <origin> <master>
+
+
+
+git checkout master
+git branch -d <branch>
+git push origin <branch>
